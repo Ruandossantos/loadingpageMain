@@ -1,0 +1,364 @@
+@media (max-width:880px){
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        height: 878px;
+    }
+
+    .contant_left .detalhes{
+        width: 70%;
+        margin: 10px 0px 0px 40px;
+    }
+
+    .contant_left .detalhes h1{
+        margin: 10px 0px 10px 0px;
+        font-size: 1.6rem;
+    }
+
+    .contant_left .detalhes p{
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+    .contant_left .detalhes .inter_data_hrs #data{
+        font-size: .8rem;
+        margin-top: 5px;
+    }
+
+    .contant_left .detalhes .inter_data_hrs #hora{
+        font-size: .9rem;
+    }
+
+    .contant_rigth_form{
+        margin: 0;
+        padding: 0;
+        width:94% ;
+        margin: 0px auto;
+    }
+
+    .contant_rigth_form #formluario{
+        width: 100%;
+        
+    }
+    .contant_rigth_form #formluario h1 {
+        font-size: 1.1rem;
+        font-family:"Montserrat";
+        font-weight: 600;
+        padding: 5px 0px 10px 0px;
+    }
+
+    .contant_rigth_form #formluario h1 {
+        font-size: 1.1rem;
+        font-family:"Montserrat";
+        font-weight: 600;
+        padding: 5px 0px 10px 0px;
+    }
+
+    .contant_rigth_form #formluario div input{
+        height: 30px;
+
+    }
+
+    main #title_section {
+        font-size: 1rem;
+        height: 25px;
+        padding: 0;
+        margin: 0;
+    }
+
+
+
+    /*sessão, o que ira aprender (onde contém 3 imagens (redondas) uma ao abaixo da outra com infomações!!)*/
+
+    .container_exposicao {
+        margin-top: 20px;
+       display: flex;
+       flex-direction: column;
+       height:900px;
+    }
+    .container_esposicao div img {
+        height: 30%;
+        width: 40%;
+    }
+    .container_esposicao div p {
+        font-size: 1.1rem;
+        font-family:"Montserrat";
+        text-align-last:center;
+    } 
+    
+
+
+
+    
+    /*Sessão local de destaque, (onde "local de destaque, horario, e ifram fica em coluna")*/
+
+    .container_local{
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .container_local .local_rigth{
+        margin: 0 auto;
+        width: 90%;
+        height: 80%;
+        margin-bottom: 30px;
+        order: 1;
+    }
+
+    .container_local .local_rigth h1{
+       font-size: 2rem;
+    }
+
+    .container_local .local_rigth p{
+        text-align:left;
+
+    }
+    
+    .container_local .local_left{
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 60vh;
+        margin: 0 auto;
+    }
+
+    .container_local .local_left #teste_iframe{
+        width: 100%;
+
+    }
+    .container_local .local_left #teste_iframe iframe{
+        width: 100%;
+        height: 100%;
+
+
+    }
+    
+
+
+
+    /*Estilização Detalhes e Images 03,  Todos em colunas!!*/
+
+    .containcer_destaques_objetivos{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .containcer_destaques_objetivos
+    #destaques_objetos_01
+    #filho_objeto_01{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .containcer_destaques_objetivos
+    #destaques_objetos_01
+    #filho_objeto_01
+    #descricao
+    {
+        margin: 0;
+        width: 100%;
+        height: 100px;
+    }
+
+    .containcer_destaques_objetivos
+    #destaques_objetos_01
+    #filho_objeto_01
+    #descricao
+    p {
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+        font-size: 1.6rem ;
+        order: 1;
+        
+    }
+    .containcer_destaques_objetivos
+    #destaques_objetos_01
+    #filho_objeto_01
+    #imagens{
+        margin: 0;
+        width: 350px;
+        height: 200px;
+        order: 2;
+    }
+    .containcer_destaques_objetivos
+    #destaques_objetos_01
+    #filho_objeto_01
+    #imagens img{ 
+        width: 340px;
+        height: 180px;
+        border-radius: 5px;
+    }
+    
+
+    /*Sessão |gostou!? Se inscreva: | local onde fica botão "Inscrever" acima do footer */
+    .sessao_gostou{
+        height:150px;
+        margin-top: 4%;
+    }
+    .sessao_gostou #gostou h3{
+        font-size: 1.4rem;
+        margin: 0;
+    }
+    .sessao_gostou #gostou button{
+        font-size: 1.2rem;
+        width: 230px;
+        height: 40px;
+    }
+    .sessao_gostou #gostou button:hover{
+        font-size: 1.1rem;
+        outline: none;
+        border: none;
+        
+    }
+    .footer #footer_fim{
+        font-size: .8rem;
+        color: black;
+        font-weight: 500;
+    }
+    .footer #footer_inter h1 {
+        font-size: 1.3rem;
+        font-weight: 800;
+    }
+
+    .footer #footer_inter p{
+        font-size: 1rem;
+    }
+    .footer #footer_inter strong p{
+        font-size: .8rem;
+    }
+    #destaques_objetos_02 #filho_objeto_02{  
+         width: 100%;
+         height:100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .containcer_destaques_objetivos
+    #destaques_objetos_02
+    #filho_objeto_02 #descricao{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+        width: 97%;
+    }
+    .containcer_destaques_objetivos
+    #destaques_objetos_02
+    #filho_objeto_02 #imagens {
+        width: 340px;
+        height: 190px;
+        border-radius: 5px;
+        margin: 0;
+    }
+    .containcer_destaques_objetivos
+    #destaques_objetos_02
+    #filho_objeto_02 #imagens img{
+        width: 95%;
+        height: 95%;
+        border-radius: 5px;
+    }
+    .containcer_destaques_objetivos
+    #destaques_objetos_02
+    #filho_objeto_02
+    #descricao
+    #lista_desordenada{
+        margin: 0;
+        width: 97%;
+    }
+    .containcer_destaques_objetivos
+    #destaques_objetos_02
+    #filho_objeto_02
+    #descricao
+    #lista_desordenada h1 {
+        font-size: 1.3rem;
+    }
+
+    
+    .containcer_destaques_objetivos
+    #destaques_objetos_02
+    #filho_objeto_02
+    #descricao
+    #lista_desordenada ul li {
+        font-size: 1rem;
+    }
+
+
+/*Estilização Detalhes e Images 03*/
+#destaques_objetos_03{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#destaques_objetos_03
+#filho_objeto_03{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#destaques_objetos_03
+#filho_objeto_03
+.img_filho03{
+    order: 2;
+    width: 340px;
+    height: 190px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#destaques_objetos_03
+#filho_objeto_03
+.img_filho03 img{
+    order: 2;
+    width: 95%;
+    height: 95%;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#destaques_objetos_03
+#filho_objeto_03
+.lista_filho03{
+    height: 100%;
+    width: 100%;
+    order: 1;
+}
+
+#destaques_objetos_03
+#filho_objeto_03
+.lista_filho03 h1{
+    font-size: 1.2rem;
+
+}
+
+
+#destaques_objetos_03
+#filho_objeto_03
+.lista_filho03 ul li{
+    
+    font-size: 1rem;;
+    margin-left: 10px;
+}
+
+
+}

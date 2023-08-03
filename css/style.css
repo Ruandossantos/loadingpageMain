@@ -1,0 +1,725 @@
+:root{
+    --prymari-text:#04ff4f;
+    --hover-buttom-formbackground-color: #21a31cc0;
+    --color-primaria-cinza: #414040;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar{
+    color: #000000;
+    width: 12px;
+    background:var(--prymari-text);
+}
+body::-webkit-scrollbar-thumb{
+    background-color: var(--color-primaria-cinza);
+    border-radius: 5px;
+    
+
+}
+/*Estilização header*/
+header{
+    display: flex;
+    height: 95vh;
+    background-image:linear-gradient(to bottom, #000000d0 , #000000ec), url(../img/hrz-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    animation-name: teste-bk;
+
+
+}
+
+
+
+
+/*Estilização header lado esquedo*/
+    .detalhes{
+        margin: 0px auto;
+        width: 50%;
+    }
+    .contant_left .detalhes #title{
+        font-family:"Montserrat";
+        color:transparent;
+        font-weight:900;
+        font-size: 2.4rem;
+        margin: 100px 0px 35px 0px;
+        background: linear-gradient(45deg,#04ff4fc0, #04ff4fee,#04ff4fc0,#04ff4f);
+        -webkit-background-clip: text;
+        background-size: 500% 100%;;
+        animation:animation_tile-h1 1s 1 ease-in-out ;
+        animation: anima2 5s infinite ease-in-out alternate;
+    }
+    .contant_left .detalhes > p{
+        color: whitesmoke;
+        font-size: 1.7rem;
+        font-weight: 700;
+        font-family:"Montserrat";
+        margin: 5px 0px 35px 0px;
+        animation-name: animation_tile-h1;
+        animation-duration: 1.2s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in-out;
+    }
+    .contant_left .detalhes .inter_data_hrs #data{
+        color: whitesmoke;
+        font-family:"Montserrat";
+        font-size: .9rem;
+        font-weight: 700;
+        margin-bottom: 5px;
+        animation-name: animation_tile-h1;
+        animation-duration: 1.4s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in-out;
+    }
+    .contant_left .detalhes .inter_data_hrs #hora{
+        font-family:"Montserrat";
+        font-size: 1rem;
+        font-weight: 900;
+        color: var(--prymari-text);
+        animation-name: animation_tile-h1;
+        animation-duration: 1.6s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in-out;
+    }
+
+
+
+/*Estilização header lado Direito (formulario)*/
+.contant_rigth_form{
+    width: 50%;
+}
+
+
+
+    .contant_rigth_form #formluario{
+        border-radius: 10px 0px 10px 0px;
+        width: 350px;
+        margin: 0px auto;
+        margin-top: 40px;
+        padding: 10px;   
+        background-color: var(--color-primaria-cinza);
+        
+    }
+        .contant_rigth_form
+        #formluario h1 {
+            color: #fff;
+            margin-top: 10px;
+            font-size: 1.4rem;
+            font-family:"Montserrat";
+            font-weight: 600;
+            padding: 10px 0px 30px 0px;
+            animation-name: formulario_in_out_bordas;
+            animation-timing-function: ease-in-out;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        .contant_rigth_form
+        #formluario div{
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+
+
+
+            /*Estilização label+Inputs+btn*/
+            .contant_rigth_form
+            #formluario div label{
+                font-family:"Montserrat";
+                font-size: 1rem;
+                color: #ffffff;
+                font-weight: 700;
+                padding: 10px 0px;
+            }
+
+            .contant_rigth_form #formluario div > input{
+                height: 30px;
+                border-radius: 5px;
+                outline: none;
+                border: none;
+                padding: 0px 0px 0px 10px;
+                font-family:"Montserrat";
+                font-weight: 500;
+            }
+            .contant_rigth_form #formluario div input::placeholder{
+                padding: 0px 0px 0px 10px;
+                color: #6e6c6c;
+            }
+            .contant_rigth_form  #formluario #requerid {
+                font-family:"Montserrat";
+                font-weight: 600;
+                height: 30px;
+                background-color: #ffffff;
+                outline: none;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+
+            .contant_rigth_form #formluario div button{
+                background-color: var(--prymari-text);
+                border: none;
+                border-radius: 5px;
+                height: 40px;
+                font-size: 1rem;
+                font-family:"Montserrat";
+                font-weight: 600;
+                margin-bottom: 20px;
+                transition: .7s;
+                color: #fff;
+                transform: scale(.9);
+                cursor: pointer;
+            }
+
+            .contant_rigth_form #formluario div button:hover{
+                background-color: var(--hover-buttom-formbackground-color);
+                cursor: pointer;
+                transform: scale(1);
+            }
+
+/*Estilização sessão o que vc ira aprender*/
+
+
+main #title_section{
+    text-align: center;
+    height: 40px;
+    font-family:"Montserrat";
+    font-size: 1.5rem;
+    background-color: var(--color-primaria-cinza);
+    animation-name: left_to_rigth;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-duration:2s;
+    color: #adadad;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    ;
+}
+
+
+/*Estilização sessão container_esposicao*/
+
+
+.container_exposicao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+   /* background-image: linear-gradient(to bottom, #000000d0 , #000000f3), url(/img/hrz-2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+
+.container_exposicao div {
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container_exposicao div img {
+    box-shadow: 1px 1px 100px 5px rgba(245, 245, 245, 0.384);
+    border-radius: 50%;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    height: 60%;
+    width: 70%;
+    transform: scale(1);
+    transition: .5s;
+}
+.container_exposicao div img:hover {
+    transform: scale(1.1);
+    
+}
+.container_exposicao div p {
+    font-size: 1rem;
+    font-family:"Montserrat";
+    text-align-last:center;
+    font-weight: 500;
+} 
+
+
+/*Estilização sessão, horario/local/bairro*/
+
+
+.container_local{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #000000d0 , #000000f3), url(../img/hrz-2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: whitesmoke;  
+}
+
+.container_local .local_left{
+    height: 400px;
+    width: 900px;
+    display:flex;
+    align-items: center; 
+}
+.container_local .local_left div {
+    display: flex;
+
+}
+.container_local .local_left div i {
+    font-size: 3rem;
+    color: var(--prymari-text);
+    margin-left: 20px;
+}
+.container_local .local_left #rua_hora_bairro p{
+    font-family:"Montserrat";
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 600;
+    margin-right: 20px;
+
+}
+
+.container_local .local_rigth{
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.container_local .local_rigth h1 {
+    color: var(--prymari-text);
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family:"Montserrat";
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.container_local .local_rigth p {
+    font-size: 1.1rem;
+    font-family:"Montserrat";
+    padding: 10px;
+}
+
+.container_local .local_left #teste_iframe{
+    height: 300px;
+    width: 450px;
+    background-color: #401566;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.container_local .local_left #teste_iframe iframe{
+    height: 300px;
+    width: 450px;
+    border: none;
+    border-radius: 5px;
+
+}
+/*Estilização sessão Destaques e objetos*/
+.containcer_destaques_objetivos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+/*Estilização destaque 01 */
+.containcer_destaques_objetivos #destaques_objetos_01{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    background-color: darkgray;
+    border-radius: 5px;
+    margin-top: 1%;
+}
+.containcer_destaques_objetivos 
+#destaques_objetos_01 
+#filho_objeto_01{
+    width: 99%;
+    height: 590px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containcer_destaques_objetivos 
+#destaques_objetos_01 
+#filho_objeto_01 
+#imagens{
+    height: 90%;
+    width: 70%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.containcer_destaques_objetivos #destaques_objetos_01 #filho_objeto_01 #descricao{
+  
+    height: 90%;
+    width: 40%;
+    margin: 10px;
+
+}
+
+.containcer_destaques_objetivos #destaques_objetos_01 #filho_objeto_01 #descricao p{
+    font-family:"Montserrat";
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin: 65px 0px;
+    animation-name: teste_h1;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    
+}
+
+.containcer_destaques_objetivos #destaques_objetos_01 #filho_objeto_01 #imagens img{
+    width: 660px;
+    height: 400px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 20px 5px #0000002a;
+}
+
+
+/*Estilização destaque 02 */
+
+.containcer_destaques_objetivos 
+#destaques_objetos_02{
+    width: 95%;
+    border-radius: 10px;
+}
+
+.containcer_destaques_objetivos #destaques_objetos_02 #filho_objeto_02{
+    width: 97%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-top: 40px;
+}
+.containcer_destaques_objetivos #destaques_objetos_02 #filho_objeto_02 #imagens{
+    height: 50%;
+    width: 50%;
+    margin-right:130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containcer_destaques_objetivos 
+ #destaques_objetos_02
+ #filho_objeto_02 
+ #imagens 
+ img{
+    width: 80%;  
+    box-shadow: 1px 1px 20px 5px #0000002a;
+  }
+.containcer_destaques_objetivos #destaques_objetos_02 #filho_objeto_02 #descricao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+  .containcer_destaques_objetivos
+  #destaques_objetos_02
+  #filho_objeto_02
+  #descricao
+  #lista_desordenada{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 170px;
+  }
+  .containcer_destaques_objetivos
+  #destaques_objetos_02
+  #filho_objeto_02
+  #descricao
+  #lista_desordenada h1{
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family:"Montserrat";
+    text-transform: uppercase;
+  }
+
+  .containcer_destaques_objetivos
+  #destaques_objetos_02
+  #filho_objeto_02
+  #descricao
+  #lista_desordenada ul li{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family:"Montserrat";
+    list-style-type:square;
+    list-style-position: inside;
+    margin-left: 10px;
+  }
+
+
+
+  /*Eslização destaque foto 03*/
+  .containcer_destaques_objetivos
+#destaques_objetos_03{
+    width: 97%;
+    height: 100%;
+    margin: 20px;
+    background-color: darkgray;
+    border-radius: 5px;
+}
+.containcer_destaques_objetivos
+#destaques_objetos_03 #filho_objeto_03{
+    width: 97%;
+    height: 97%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+}
+
+#destaques_objetos_03
+#filho_objeto_03
+.img_filho03{
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#destaques_objetos_03
+#filho_objeto_03
+.img_filho03 img {
+width: 80%;
+width: 80%;   
+box-shadow: 1px 1px 20px 5px #0000002a;
+border-radius: 5px;        
+}
+
+#destaques_objetos_03
+#filho_objeto_03
+.lista_filho03{
+    height: 50%;
+    width: 50%;
+    margin: auto;
+}
+#destaques_objetos_03
+#filho_objeto_03
+.lista_filho03 h1{
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family:"Montserrat";
+    text-transform: uppercase;
+}
+#destaques_objetos_03
+#filho_objeto_03
+.lista_filho03 ul{
+    margin-left: 10%;
+
+    
+}
+
+#destaques_objetos_03
+#filho_objeto_03
+.lista_filho03 ul li{
+    
+    font-size: 1rem;
+    font-weight: 600;
+    font-family:"Montserrat";
+    list-style-type:square;
+    list-style-position: inside;
+    margin-left: 10px;
+}
+.sessao_gostou {
+    height: 300px;
+    background-image:linear-gradient(to bottom, #000000d0 , #000000ec), url(../img/hrz-6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sessao_gostou #gostou{
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sessao_gostou #gostou h3{
+    font-family:"Montserrat";
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: whitesmoke;
+    font-weight: 800;
+    
+}
+
+.sessao_gostou #gostou button{
+    font-family:"Montserrat";
+    height: 50px;
+    width: 80%;
+    font-size: 1.4rem;
+    font-weight: 600;
+    background-color: var(--prymari-text);
+    border: none;
+    outline: none;
+    transition: .7s;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    animation-name: btn_scal;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    cursor: pointer;
+
+}
+
+
+@keyframes btn_scal{
+    0%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.sessão_gostou #gostou button:hover{
+    background-color: var(--hover-buttom-formbackground-color);
+    cursor: pointer;
+    
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.footer #footer_fim{
+    font-family:"Montserrat";
+    font-size:.7rem;
+    font-weight: 400;
+    color: #000000;
+    margin: 15px 0px;
+}
+.footer #footer_inter {
+    margin: 10px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer #footer_inter h1 {
+    font-family:"Montserrat";
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #000000;
+    margin: 15px 0px;
+}
+.footer #footer_inter span{
+    font-family:"Montserrat";
+    color: #000000;
+    margin: 10px 0px;
+    font-weight: 500;
+} 
+
+.footer #footer_inter strong p{
+    font-family:"Montserrat";
+    color: #202020;
+    font-weight: 600;
+}
+
+
+
+
+
+@keyframes animation_tile-h1 {
+    0% {
+        translate: -700px;
+        opacity: .0;
+    }
+    50%{
+        opacity: .2;
+    }
+}
+@keyframes anima2 {
+    
+    0% {
+        background-position-x: 0%;
+    }
+
+    100%{
+        background-position-x: 100%;
+    }
+}
+
+
+@keyframes teste_h1 {
+    0% {
+       opacity: 0;
+    }
+}
+
+@keyframes  left_to_rigth {
+    0%{
+        transform: scaleX(.2);
+        opacity: 0;
+    }
+
+    100%{
+        transform: scaleX(1)
+}
+}
+
+@keyframes formulario_in_out_bordas{
+    0%{ 
+        border-radius: 20px 0px 20px 0px;
+    }
+    25%{
+        border-radius: 9px 0px 4px 8px;}
+    
+    50%{
+        border-radius: 4px 0px 4px 0px;
+    } 
+    75%{
+        border-radius: 3px 0px 3px 0px;
+    }
+    100%{
+        border-radius: 0px 0px 0px 0px;
+    }
+}

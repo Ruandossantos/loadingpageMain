@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="js/js.js"></script>
+    <title>Studio Architettura</title>
+</head>
+
+<body>
+    <!--Cabeçalho (contem o formulario)-->
+    <header>
+        <!--Corpo, lado esquerdo header-->
+        <section class="contant_left">
+            <div class="detalhes">
+                <div id="title">Studio Architettura</div>
+                <p>UM EVENTO PARA REVOLUICIONAR A SUA CRIATIVIDADE</p>
+                <div class="inter_data_hrs">
+                    <p id="data">Data do evento:</p>
+                    <p id="hora">Domingo, 28 de maio, a partir das 14hrs</p>
+                </div>
+            </div>
+        </section>
+        <!--Corpo, lado direito header (formulario)-->
+        <section class="contant_rigth_form">
+            <form action="#" method="post" id="formluario">
+                <h1>Preencha o formúlario e receba detalhes do evento</h1>
+                <div>
+                    <label for="nome"> Nome</label>
+                    <input type="text" name="Nome" id="nome" placeholder="Digite o seu nome completo" require oninput="teste()">
+
+                    <label for="e-mail">E-mail</label>
+                    <input type="email" name="e-mail" id="e-mail" placeholder="Digite o seu E-mail" required>
+
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="Número de Whatsapp">
+
+                    <label for="requerido">Principal interesse</label>
+                    <select name="" id="requerid">
+                        <option value="#" selected disabled>Selecione</option>
+                        <option value="#">Designer</option>
+                        <option value="#">Casa</option>
+                        <option value="#">Decoração</option>
+                    </select>
+                    <button>QUERO ME CADASTRAR</button>
+                </div>
+            </form>
+        </section>
+    </header>
+    <main>
+        <!--unico-->
+        <h1 id="title_section">O que você vai aprender:</h1>
+
+        <!--sessão, o que ira aprender (onde contém 3 imagens uma ao lado da outra com infomações!!) -->
+        <section class="container_exposicao">
+            <div>
+                <img src="img/sqr-2.jpg" alt="">
+                <p>Alguma coisa muito legal, que vai fazer a diferença na vida do participante.</p>
+            </div>
+            <div>
+                <img src="img/sqr-2.jpg" alt="" width="200px">
+                <p>Alguma coisa muito legal, que vai fazer a diferença na vida do participante.</p>
+            </div>
+            <div>
+                <img src="img/sqr-2.jpg" alt="" width="200px">
+                <p>Alguma coisa muito legal, que vai fazer a diferença na vida do participante.</p>
+            </div>
+        </section>
+
+        <!--sessão, onde destaca o bairro / local/ horario-->
+        <section class="container_local">
+            <div class="local_left">
+                <div><i class="bi bi-geo-alt-fill"></i></div>
+                <div id="rua_hora_bairro">
+                    <p>Rua do evento Nº222 <br>
+                        Bairro <br>
+                        Abertura: 14hr
+                    </p>
+                </div>
+                <div id="teste_iframe"><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4219.983367978028!2d-43.21685812454475!3d-12.176526344331183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDEwJzM1LjUiUyA0M8KwMTInNTEuNCJX!5e1!3m2!1spt-BR!2sbr!4v1682950790570!5m2!1spt-BR!2sbr"></iframe>
+                </div>
+            </div>
+            <div id="teste_iframe">
+
+
+            </div>
+
+            <div class="local_rigth">
+                <h1>local de <br> destaque</h1>
+                <p>O evento será realizado em um local prestigiado pelos amantes de Design de Interiores, onde teremos
+                    exemplos de vários ambientes, tanto internos como externos.</p>
+            </div>
+
+        </section>
+
+        <!--sessão, onde contém, os meus destaques e objetivos-->
+
+        <section class="containcer_destaques_objetivos">
+            <div id="destaques_objetos_01">
+                <div id="filho_objeto_01">
+                    <div id="imagens"><img src="img/hrz-3.jpg" alt=""></div>
+                    <div id="descricao">
+                        <p>Conheça os ambientes que você vai aprender a decorar</p>
+                    </div>
+                </div>
+            </div>
+            <div id="destaques_objetos_02">
+                <div id="filho_objeto_02">
+                    <div id="descricao">
+                        <div id="lista_desordenada">
+                            <h1>Detalhes:</h1>
+                            <ul>
+                                <li>Posicionamento</li>
+                                <li>Aproveitamento de espaço</li>
+                                <li>Combinação de cores</li>
+                                <li>Organização</li>
+                                <li>E muito mais...</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="imagens">
+                        <img src="img/hrz-4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div id="destaques_objetos_03">
+
+                <div id="filho_objeto_03">
+
+                    <div class="img_filho03">
+                        <img src="img/hrz-5.jpg" alt="">
+                    </div>
+
+
+                    <div class="lista_filho03">
+                        <h1>Detalhes:</h1>
+                        <ul>
+                            <li>Posicionamento</li>
+                            <li>Aproveitamento de espaço</li>
+                            <li>Combinação de cores</li>
+                            <li>Organização</li>
+                            <li>E muito mais...</li>
+                        </ul>
+                    </div>
+                </div>
+
+        </section>
+
+        <section class="sessao_gostou">
+            <div id="gostou">
+                <h3>Gostou!? Se inscreva:</h3>
+                <button>
+                    Me inscrever
+                </button>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div id="footer_inter">
+            <h1>Studio Architettura</h1>
+            <span>A Evolução da decoração de interiores</span>
+
+            <strong>
+                <p>Entre em contato: santtos9909@gmail.com</p>
+            </strong>
+            <strong>
+                <p>ou pelo Telefone: (77) 9 9914-2095</p>
+            </strong>
+        </div>
+        <p id="footer_fim">loading Page criado por Ruan dos Santos
+        <p>
+    </footer>
+</body>
+
+</html>
