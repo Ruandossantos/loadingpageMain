@@ -181,7 +181,16 @@ header{
                 cursor: pointer;
                 transform: scale(1);
             }
-
+            #anuncio{
+                width: 750x;
+                height: 100px;
+                background-color: firebrick;
+            }
+             #anuncio2{
+                width: 750x;
+                height: 100px;
+                background-color: firebrick;
+            }
 /*Estilização sessão o que vc ira aprender*/
 
 
