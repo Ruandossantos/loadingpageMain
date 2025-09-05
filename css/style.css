@@ -2,9 +2,20 @@
     --prymari-text:#04ff4f;
     --hover-buttom-formbackground-color: #21a31cc0;
     --color-primaria-cinza: #414040;
+
+}
+.conteineranun{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
 }
 .anuncios{
     background-color: red;
+    width: 728px;
+    height: 90px;
+}.anuncios2{
+    background-color: rgb(26, 28, 175);
     width: 728px;
     height: 90px;
 }
