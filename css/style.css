@@ -3,7 +3,11 @@
     --hover-buttom-formbackground-color: #21a31cc0;
     --color-primaria-cinza: #414040;
 }
-
+.anuncios{
+    background-color: red;
+    width: 728px;
+    height: 90px;
+}
 *{
     padding: 0;
     margin: 0;
