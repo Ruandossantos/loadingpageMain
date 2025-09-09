@@ -11,16 +11,16 @@
     background-color: #000000;
 }
 .anuncios{
-    background-color: red;
+    background-color: transparent;
     width: 728px;
     height: 90px;
 }.anuncios2{
-    background-color: rgb(26, 28, 175);
+    background-color:transparent;
     width: 728px;
     height: 90px;
 }
 .anuncioslateral{
-    background-color: red;
+    background-color: transparent;
    width: 728px;
     height: 90px;
 }
