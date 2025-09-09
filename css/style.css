@@ -21,9 +21,10 @@
 }
 .anuncioslateral{
     background-color: red;
-    width: 160px;
-    height: 600px;
+   width: 728px;
+    height: 90px;
 }
+
 *{
     padding: 0;
     margin: 0;
