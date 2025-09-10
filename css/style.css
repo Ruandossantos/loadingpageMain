@@ -5,32 +5,38 @@
 
 }
 .conteineranun{
+      display: none;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #000000;
 }
 .anuncios{
+    display: none;
     background-color: violet;
     width: 300px;
     height: 250px;
 }.anuncios2{
+      display: none;
     background-color:floralwhite;
     width: 300px;
     height: 250px;
 }
 .anuncios4{
+      display: none;
     background-color:rgb(221, 148, 2);
     width: 300px;
     height: 250px;
 }
 
 .anuncios5{
+      display: none;
     background-color:rgb(221, 2, 185);
     width: 300px;
     height: 250px;
 }
 .anuncioslateral{
+      display: none;
     background-color:gold;
    width: 300px;
     height: 250px;
