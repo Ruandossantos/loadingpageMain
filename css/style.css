@@ -11,21 +11,25 @@
     background-color: #000000;
 }
 .anuncios{
+    display: none;
     background-color: violet;
     width: 300px;
     height: 250px;
 }.anuncios2{
+    display: none;
     background-color:floralwhite;
     width: 300px;
     height: 250px;
 }
 .anuncios4{
+    display: none;
     background-color:rgb(221, 148, 2);
     width: 300px;
     height: 250px;
 }
 
 .anuncios5{
+    display: none;
     background-color:rgb(221, 2, 185);
     width: 300px;
     height: 250px;
@@ -36,9 +40,11 @@
     height: 420px;
 }
 .anuncio-lateral1{
+    display: none;
      background-color:rgb(255, 0, 157);
 }
 .anuncio-lateral2{
+    display: none;
      background-color:rgb(255, 0, 0);
 }
 *{
